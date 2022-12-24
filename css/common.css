@@ -1,3 +1,6 @@
+@import "../fonts/Open_Sans/opensans.css";
+@import "../fonts/Montserrat/montserrat.css";
+
 body {
     padding: 50px 110px;
 }
