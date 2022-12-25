@@ -41,7 +41,6 @@
     flex-direction: column;
     position: relative;
     background: #EEE4DB;
-    margin-bottom: 90px;
 }
 
 .collection .collection__top-side {
@@ -79,21 +78,6 @@
     margin-bottom: 20px;
 }
 
-.collection .collection__top-side .collection__button {
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 22px;
-    text-transform: uppercase;
-    color: #fff;
-    padding: 9px 22px;
-    width: fit-content;
-    border: none;
-    background-color: #000;
-    cursor: pointer;
-}
-
 .collection .collection__footer {
     position: relative;
     display: flex;
@@ -114,7 +98,6 @@
 }
 
 .category {
-
 }
 
 .category .category__title {
@@ -243,7 +226,7 @@
     font-family: "Crimson Text";
     font-size: 26px;
     font-style: italic;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 34px;
     letter-spacing: 0em;
     text-align: left;
@@ -258,4 +241,48 @@
     letter-spacing: 0em;
     text-align: left;
     text-transform: uppercase;
+    margin: 0;
+}
+
+.delivery .delivery__list__item .delivery__list__text {
+    font-family: Crimson Text;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+}
+
+.delivery .delivery__list__item .margin_b_10{
+    margin-bottom: 10px;
+}
+
+.delivery .delivery__list__item .delivery__list__description {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+}
+
+.delivery .delivery__list__item .delivery__list__button{
+    margin-top: 10px;
+}
+
+.clients{
+
+}
+
+.clients .clients__title{
+    display: none;
+}
+
+.clients .clients__list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
