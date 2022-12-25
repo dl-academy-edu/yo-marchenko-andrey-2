@@ -2,7 +2,14 @@
 @import "../fonts/Montserrat/montserrat.css";
 @import "../fonts/Crimson_Text/CrimsonText.css";
 
-body {
+body{
+    margin: 0;
+}
+
+.wrapper,
+header,
+footer{
+    position: relative;
     padding: 50px 110px;
 }
 
@@ -32,4 +39,8 @@ section{
     border: none;
     background-color: #000;
     cursor: pointer;
+}
+
+ul{
+    padding-inline-start: 0;
 }
