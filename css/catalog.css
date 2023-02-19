@@ -1,6 +1,6 @@
 @import "../fonts/Montserrat/montserrat.css";
 
-.wrapper{
+.wrapper {
     padding-top: 0;
 }
 
@@ -11,22 +11,55 @@
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size:40px;
+    font-size: 40px;
     line-height: 49px;
     text-transform: uppercase;
-    color: #1E0606; 
+    color: #1E0606;
+    margin-bottom: 15px;
+}
+
+.category__breadcrumbs {
+    display: flex;
+    margin: 0 0 50px 0;
+}
+
+.category__breadcrumbs__item {
+    font-family: 'Crimson Text';
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+    margin-right: 20px;
+}
+
+.category__breadcrumbs .active {
+    color: gray;
 }
 
 .category .category__list {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     margin-bottom: 30px;
 }
 
 .category .category__list .category__list__item {
     position: relative;
     padding: 150px;
+    margin-right: 20px;
+    margin-bottom: 23px;
+}
+
+.category .category__list .category__list__item:nth-child(6n+3) {
+    margin-right: 300px;
+}
+
+.category .category__list .category__list__item:nth-child(6n+4) {
+    margin-left: 200px;
 }
 
 .category .category__list .category__list__title {
@@ -51,46 +84,49 @@
     transform: translate(-50%, -50%);
 }
 
-.category .category__list .category__list__item:nth-child(1) {
+.category .category__list .category__list__item:nth-child(1n) {
     background-color: #DBE4DB;
 }
 
-.category .category__list .category__list__item:nth-child(2) {
+.category .category__list .category__list__item:nth-child(2n) {
     background-color: #EADDD3;
 }
 
-.category .category__list .category__list__item:nth-child(3) {
+.category .category__list .category__list__item:nth-child(3n) {
     background-color: #f8f2db;
 }
 
-.category .category__list .category__list__item:nth-child(4) {
+.category .category__list .category__list__item:nth-child(4n) {
     background-color: #d5d4e1;
 }
 
-.category .category__footer {
-
+.category .category__description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
 }
 
-.category .category__footer .category__footer__left-arrow,
-.category .category__footer .category__footer__right-arrow {
-    background-color: #e2f0f8;
-    padding: 5px 12px;
+.category .category__description .category__description__title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
 }
 
-.category .category__footer .category__footer__left-arrow {
-    padding-right: 5px;
-    transform: rotate(180deg);
+.category .category__description .category__description__description{
+    margin-bottom: 20px;
 }
 
-.category .category__footer .category__footer__right-arrow {
-    margin-right: 20px;
-}
-
-.category .category__footer .category__footer__description {
+.category .category__description__description .category__description__item {
     font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
+    font-weight: 400;
     line-height: 22px;
-    vertical-align: top;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 20px;
+    width: 680px;
 }
