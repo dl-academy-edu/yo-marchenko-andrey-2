@@ -7,15 +7,17 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/popup.css">
 </head>
 <body>
 <header class="header">
     <div class="header__left-side">
         <img class="header__logo" src="img/logo/Union.svg" alt="logo">
         <ul class="header__menu">
-            <li class="header__menu__item active"><a class="header__menu__link" href="#">blog</a></li>
+            <li class="header__menu__item active"><a class="header__menu__link" href="blog.html">blog</a></li>
             <li class="header__menu__item disable"><a class="header__menu__link" href="catalog.html">catalog</a></li>
-            <li class="header__menu__item disable"><a class="header__menu__link" href="#">about us</a></li>
+            <li class="header__menu__item disable"><a class="header__menu__link" href="contact_us.html">about us</a>
+            </li>
         </ul>
     </div>
     <div class="header__rigth-side">
@@ -26,129 +28,167 @@
     </div>
 </header>
 <main class="wrapper">
-<section class="collection">
-    <div class="collection__top-side">
-        <h1 class="collection__title">the ooh noo collection</h1>
-        <span class="collection__description">Designed in Slovenia</span>
-        <button class="collection__button black_button">explore now</button>
-    </div>
-    <img class="collection__img" src="img/image.png" alt="collection">
-    <div class="collection__footer">
-        <span class="collection__footer__text">Free (continental) USA shipping on all orders of $100 USD or more!</span>
-    </div>
-</section>
-<section class="category">
-    <h2 class="category__title">Category Products</h2>
-    <ul class="category__list">
-        <li class="category__list__item">
-            <img class="category__list__img" src="img/tshirt.png" alt="category_img">
-            <h3 class="category__list__title">APPAREL KIDS</h3>
-        </li>
-        <li class="category__list__item">
-            <img class="category__list__img" src="img/image-3.png" alt="category_img">
-            <h3 class="category__list__title">HOLIDAY SHOP</h3>
-        </li>
-        <li class="category__list__item">
-            <img class="category__list__img" src="img/image2 1.png" alt="category_img">
-            <h3 class="category__list__title">toys</h3>
-        </li>
-        <li class="category__list__item">
-            <img class="category__list__img" src="img/image-4.png" alt="category_img">
-            <h3 class="category__list__title">ACCESSORIES</h3>
-        </li>
-    </ul>
-    <div class="category__footer">
-        <img src="img/logo/Vector.svg" class="category__footer__left-arrow" alt="left_arrow">
-        <img src="img/logo/Vector.svg" class="category__footer__right-arrow" alt="right-arrow">
-        <span class="category__footer__description">Modern finds for the modern home. Curated goods by unique designers around the world from fashion to furniture for kids and adults.</span>
-    </div>
-</section>
-<section class="delivery">
-    <div class="delivery__left-wrap">
-        <img class="delivery__left-wrap__img" src="img/image.jpg" alt="girl_on_dress">
-    </div>
-    <div class="delivery__right-wrap">
-        <ul class="delivery__list">
-            <li class="delivery__list__item">
-                <h2 class="delivery__title">Delivery</h2>
+    <section class="collection">
+        <div class="collection__top-side">
+            <h1 class="collection__title">the ooh noo collection</h1>
+            <span class="collection__description">Designed in Slovenia</span>
+            <button class="collection__button black_button">explore now</button>
+        </div>
+        <img class="collection__img" src="img/image.png" alt="collection">
+        <div class="collection__footer">
+            <span class="collection__footer__text">Free (continental) USA shipping on all orders of $100 USD or more!</span>
+        </div>
+    </section>
+    <section class="category">
+        <h2 class="category__title">Category Products</h2>
+        <ul class="category__list">
+            <li class="category__list__item">
+                <img class="category__list__img" src="img/tshirt.png" alt="category_img">
+                <h3 class="category__list__title">APPAREL KIDS</h3>
             </li>
-            <li class="delivery__list__item bgcolor_blue">
-                <p class="delivery__additional_title">Delivery</p>
+            <li class="category__list__item">
+                <img class="category__list__img" src="img/image-3.png" alt="category_img">
+                <h3 class="category__list__title">HOLIDAY SHOP</h3>
             </li>
-            <li class="delivery__list__item">
-                <p class="delivery__list__text">Guarantee</p>
+            <li class="category__list__item">
+                <img class="category__list__img" src="img/image2 1.png" alt="category_img">
+                <h3 class="category__list__title">toys</h3>
             </li>
-            <li class="delivery__list__item">
-                <p class="delivery__list__text margin_b_10">Credit</p>
-            </li>
-            <li class="delivery__list__item">
-                <p class="delivery__list__description">Some days i feel like i've been working on dlk my entire life and
-                    there are other days that i am completely shocked that four years have flown by. It's simply
-                    magical.</p>
-            </li>
-            <li class="delivery__list__item">
-                <p class="delivery__list__description">What started as an outlet to deal with the traumatic loss of my
-                    husband, dlk has now become a truly happy place for me and i have you and all of the beautiful
-                    designers that we work with to thank!</p>
-            </li>
-            <li class="delivery__list__item">
-                <button class="delivery__list__button black_button">LEARN MORE</button>
+            <li class="category__list__item">
+                <img class="category__list__img" src="img/image-4.png" alt="category_img">
+                <h3 class="category__list__title">ACCESSORIES</h3>
             </li>
         </ul>
-    </div>
-</section>
-<section class="clients">
-    <h2 class="clients__title">Clients</h2>
-    <ul class="clients__list">
-        <li class="clients__item"><img src="img/mail_ru_img.png" alt="clients_logo"></li>
-        <li class="clients__item"><img src="img/apple_img.png" alt="clients_logo"></li>
-        <li class="clients__item"><img src="img/eltex_img.png" alt="clients_logo"></li>
-        <li class="clients__item"><img src="img/owox_img.png" alt="clients_logo"></li>
-    </ul>
-</section>
-<section class="contacts">
-    <div class="contacts__left-wrap">
-        <h2 class="contacts__left-wrap__title">Design Life Kids</h2>
-        <h3 class="contacts__left-wrap__additional-title">About Us</h3>
-        <p class="contacts__left-wrap__description">Some days i feel like i've been working on dlk my entire life and
-            there are other days that i am completely shocked that four years have flown by. It's simply magical. </p>
-        <button class="contacts__left-wrap__button black_button">buy now</button>
-    </div>
-    <div class="contacts__right-wrap">
-        <h2 class="contacts__right-wrap__title">Contacts</h2>
-        <p class="contacts__right-wrap__description">Some days i feel like i've been working on dlk my entire life and
-            there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
-        <iframe class="contacts__ritht-wrap__map"
-                height="200"
-                style="border:0"
-                loading="lazy"
-                allowfullscreen
-                referrerpolicy="no-referrer-when-downgrade"
-                src="https://www.google.ru/maps/place/KFC+%D0%90%D0%B2%D1%82%D0%BE/@53.5293775,49.2904019,14.44z/data=!4m5!3m4!1s0x41687999b830e283:0x33049e615bbd7226!8m2!3d53.5269019!4d49.2987131">
-        </iframe>
-    </div>
-</section>
+        <div class="category__footer">
+            <img src="img/logo/Vector.svg" class="category__footer__left-arrow" alt="left_arrow">
+            <img src="img/logo/Vector.svg" class="category__footer__right-arrow" alt="right-arrow">
+            <span class="category__footer__description">Modern finds for the modern home. Curated goods by unique designers around the world from fashion to furniture for kids and adults.</span>
+        </div>
+    </section>
+    <section class="delivery">
+        <div class="delivery__left-wrap">
+            <img class="delivery__left-wrap__img" src="img/image.jpg" alt="girl_on_dress">
+        </div>
+        <div class="delivery__right-wrap">
+            <ul class="delivery__list">
+                <li class="delivery__list__item">
+                    <h2 class="delivery__title">Delivery</h2>
+                </li>
+                <li class="delivery__list__item bgcolor_blue">
+                    <p class="delivery__additional_title">Delivery</p>
+                </li>
+                <li class="delivery__list__item">
+                    <p class="delivery__list__text">Guarantee</p>
+                </li>
+                <li class="delivery__list__item">
+                    <p class="delivery__list__text margin_b_10">Credit</p>
+                </li>
+                <li class="delivery__list__item">
+                    <p class="delivery__list__description">Some days i feel like i've been working on dlk my entire life
+                        and
+                        there are other days that i am completely shocked that four years have flown by. It's simply
+                        magical.</p>
+                </li>
+                <li class="delivery__list__item">
+                    <p class="delivery__list__description">What started as an outlet to deal with the traumatic loss of
+                        my
+                        husband, dlk has now become a truly happy place for me and i have you and all of the beautiful
+                        designers that we work with to thank!</p>
+                </li>
+                <li class="delivery__list__item">
+                    <button class="delivery__list__button black_button">LEARN MORE</button>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="clients">
+        <h2 class="clients__title">Clients</h2>
+        <ul class="clients__list">
+            <li class="clients__item"><img src="img/mail_ru_img.png" alt="clients_logo"></li>
+            <li class="clients__item"><img src="img/apple_img.png" alt="clients_logo"></li>
+            <li class="clients__item"><img src="img/eltex_img.png" alt="clients_logo"></li>
+            <li class="clients__item"><img src="img/owox_img.png" alt="clients_logo"></li>
+        </ul>
+    </section>
+    <section class="contacts">
+        <div class="contacts__left-wrap">
+            <h2 class="contacts__left-wrap__title">Design Life Kids</h2>
+            <h3 class="contacts__left-wrap__additional-title">About Us</h3>
+            <p class="contacts__left-wrap__description">Some days i feel like i've been working on dlk my entire life
+                and
+                there are other days that i am completely shocked that four years have flown by. It's simply
+                magical. </p>
+            <button class="contacts__left-wrap__button black_button">buy now</button>
+        </div>
+        <div class="contacts__right-wrap">
+            <h2 class="contacts__right-wrap__title">Contacts</h2>
+            <p class="contacts__right-wrap__description">Some days i feel like i've been working on dlk my entire life
+                and
+                there are other days that i am completely shocked that four years have flown by. It's simply
+                magical.</p>
+            <iframe class="contacts__ritht-wrap__map"
+                    height="200"
+                    style="border:0"
+                    loading="lazy"
+                    allowfullscreen
+                    referrerpolicy="no-referrer-when-downgrade"
+                    src="https://www.google.ru/maps/place/KFC+%D0%90%D0%B2%D1%82%D0%BE/@53.5293775,49.2904019,14.44z/data=!4m5!3m4!1s0x41687999b830e283:0x33049e615bbd7226!8m2!3d53.5269019!4d49.2987131">
+            </iframe>
+        </div>
+    </section>
 </main>
+<section class="popup">
+    <div class="popup-wrapper">
+        <button class="popup__close">X</button>
+        <form action="example/submit.html">
+            <legend>Name</legend>
+            <input type="text" class="popup__name" name="name">
+            <div class="popup__item">
+                <legend>Phone
+                    <input type="text" class="popup__phone" name="name">
+                </legend>
+                <legend>Email
+                    <input type="text" class="popup__email" name="name">
+                </legend>
+            </div>
+            <legend>Message</legend>
+            <input type="text" class="popup__message" name="name">
+            <label for="black"><input type="checkbox" id="black">By clicking on the button, you consent to the
+                processing of your personal data</label>
+            <button type="submit" class="popup__button black_button">Submit</button>
+        </form>
+    </div>
+</section>
 <footer class="footer">
     <div class="footer__left-wrap">
         <p class="footer__left-wrap__title">Navigation</p>
         <ul class="footer__left-wrap__list">
-            <li class="footer__left-wrap__item"><a class="footer__left-wrap__link link" href="#">About Us</a></li>
-            <li class="footer__left-wrap__item"><a class="footer__left-wrap__link link" href="#">Blog</a></li>
-            <li class="footer__left-wrap__item"><a class="footer__left-wrap__link link" href="#">Design Services</a></li>
+            <li class="footer__left-wrap__item"><a class="footer__left-wrap__link link" href="contact_us.html">About
+                Us</a></li>
+            <li class="footer__left-wrap__item"><a class="footer__left-wrap__link link" href="blog.html">Blog</a></li>
+            <li class="footer__left-wrap__item"><a class="footer__left-wrap__link link" href="#">Design Services</a>
+            </li>
             <li class="footer__left-wrap__item"><a class="footer__left-wrap__link link" href="#">Featured On</a></li>
-            <li class="footer__left-wrap__item"><a class="footer__left-wrap__link link" href="#">2018 Holiday Catalog</a></li>
-            <li class="footer__left-wrap__item"><a class="footer__left-wrap__link link" href="#">Shop By Desingeer</a></li>
+            <li class="footer__left-wrap__item"><a class="footer__left-wrap__link link" href="toy_for_kids.html">2018
+                Holiday
+                Catalog</a></li>
+            <li class="footer__left-wrap__item"><a class="footer__left-wrap__link link" href="#">Shop By Desingeer</a>
+            </li>
         </ul>
     </div>
     <div class="footer__center-wrap">
         <p class="footer__center-wrap__title">Customer information</p>
         <ul class="footer__center-wrap__list">
-            <li class="footer__center-wrap__item"><a class="footer__center-wrap__link link" href="#">Contact Us</a></li>
-            <li class="footer__center-wrap__item"><a class="footer__center-wrap__link link" href="#">Sale Exclusions</a></li>
-            <li class="footer__center-wrap__item"><a class="footer__center-wrap__link link" href="#">Shipping & Returns</a></li>
-            <li class="footer__center-wrap__item"><a class="footer__center-wrap__link link" href="#">Terms & Conditions</a></li>
-            <li class="footer__center-wrap__item"><a class="footer__center-wrap__link link" href="#">Privacy Policy</a></li>
+            <li class="footer__center-wrap__item"><a class="footer__center-wrap__link link" href="contact_us.html">Contact
+                Us</a></li>
+            <li class="footer__center-wrap__item"><a class="footer__center-wrap__link link" href="#">Sale Exclusions</a>
+            </li>
+            <li class="footer__center-wrap__item"><a class="footer__center-wrap__link link" href="#">Shipping &
+                Returns</a></li>
+            <li class="footer__center-wrap__item"><a class="footer__center-wrap__link link" href="#">Terms &
+                Conditions</a></li>
+            <li class="footer__center-wrap__item"><a class="footer__center-wrap__link link" href="#">Privacy Policy</a>
+            </li>
             <li class="footer__center-wrap__item"><a class="footer__center-wrap__link link" href="#">Search</a></li>
         </ul>
     </div>
@@ -168,5 +208,6 @@
         </ul>
     </div>
 </footer>
+<script src="js/popup.js"></script>
 </body>
 </html>

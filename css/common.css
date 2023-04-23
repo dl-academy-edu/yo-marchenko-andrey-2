@@ -2,13 +2,13 @@
 @import "../fonts/Montserrat/montserrat.css";
 @import "../fonts/Crimson_Text/CrimsonText.css";
 
-body{
+body {
     margin: 0;
 }
 
 .wrapper,
 header,
-footer{
+footer {
     position: relative;
     padding: 50px 110px;
 }
@@ -22,7 +22,7 @@ a {
     color: #000;
 }
 
-section{
+section {
     margin-bottom: 90px;
 }
 
@@ -41,6 +41,53 @@ section{
     cursor: pointer;
 }
 
-ul{
+ul {
     padding-inline-start: 0;
+}
+
+input[type=range] {
+    width: 200px;
+}
+
+input[type=range] {
+    width: 200px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    overflow: hidden;
+    height: 4px;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    height: 4px;
+    background-color: #000000;
+    opacity: 0.5;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    background: #ecf0f1;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    -webkit-appearance: none;
+    margin-top: -4px;
+    box-shadow: -200px 0 0 200px #C29974;
+
+}
+
+input[type=range]::-moz-range-track {
+    height: 4px;
+    background-color: blue;
+}
+
+
+input[type=range]::-moz-range-thumb {
+    background: #ecf0f1;
+    cursor: pointer;
+    height: 4px;
+    border-radius: 0px;
+    box-shadow: -200px 0px 0px 200px #43e5f7;
+    padding: 0px;
+    margin: 0px;
 }

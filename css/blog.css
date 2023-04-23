@@ -1,0 +1,51 @@
+.blog {
+}
+
+.blog .blog__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.blog .blog__item {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.blog .blog__item:nth-child(3n) {
+    margin-right: 0;
+}
+
+.blog .blog__item__img {
+    margin-bottom: 20px;
+}
+
+.blog .block__item__date {
+    font-family: 'Open Sans', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #818181;
+}
+
+.blog .block__item__title {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.blog .block__item__description {
+    font-family: 'Open Sans', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}

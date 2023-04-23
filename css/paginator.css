@@ -1,0 +1,34 @@
+.paginator {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.paginator .paginator__arrow {
+    width: 13px;
+    height: 26px;
+    background-image: url("../img/Vector.png");
+}
+
+.paginator .right {
+    transform: rotate(180deg);
+}
+
+.paginator .paginator__list {
+    display: flex;
+}
+
+.paginator .paginator__item {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 33px;
+    margin-left: 33px;
+}
+
+.paginator .active a{
+    color: #C29974;
+}
