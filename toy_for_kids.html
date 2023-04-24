@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/breadcrumbs.css">
+    <link rel="stylesheet" href="css/paginator.css">
+    <link rel="stylesheet" href="css/toy_for_kids.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+<header class="header">
+    <div class="header__left-side">
+        <img class="header__logo" src="img/logo/Union.svg" alt="logo">
+        <ul class="header__menu">
+            <li class="header__menu__item active"><a class="header__menu__link" href="blog.html">blog</a></li>
+            <li class="header__menu__item disable"><a class="header__menu__link" href="catalog.html">catalog</a></li>
+            <li class="header__menu__item disable"><a class="header__menu__link" href="contact_us.html">about us</a></li>
+        </ul>
+    </div>
+    <div class="header__rigth-side">
+        <ul class="header__contact">
+            <li class="header__contact__item"><img src="img/logo/magnifying_glass.svg" alt="magnifying glass"></li>
+            <li class="header__contact__item"><a class="header__contact__link" href="#">contact us</a></li>
+        </ul>
+    </div>
+</header>
+<main class="wrapper">
+    <section class="breadcrumbs">
+        <h1 class="breadcrumbs__title">Toy for kids</h1>
+        <ul class="breadcrumbs__list">
+            <li class="breadcrumbs__item">Home</li>
+            <li class="breadcrumbs__item">></li>
+            <li class="breadcrumbs__item ">Catalog</li>
+            <li class="breadcrumbs__item">></li>
+            <li class="breadcrumbs__item active">Kids</li>
+        </ul>
+    </section>
+    <section class="toy__settings">
+        <ul class="toy__settings__list">
+            <li class="toy__settings__cost">
+                <h3 class="toy__settings__title">Cost</h3>
+                <input type="range" min="0" max="500" step="1" value="50">
+            </li>
+            <li class="toy__settings__color">
+                <h3 class="toy__settings__title">Color</h3>
+                <label for="black"><input type="checkbox" id="black">black</label>
+                <label for="blue"><input type="checkbox" id="blue">blue</label>
+                <label for="green"><input type="checkbox" id="green">green</label>
+                <label for="white"><input type="checkbox" id="white">white</label>
+            </li>
+            <li class="toy__settings__delivery">
+                <h3 class="toy__settings__title">Delivery</h3>
+                <label for="free__shipping"><input type="radio" id="free__shipping">Free shipping</label>
+                <label for="fast__shipping"><input type="radio" id="fast__shipping">Fast shipping</label>
+            </li>
+            <li class="toy__settings__amount">
+                <h3 class="toy__settings__title">Amount</h3>
+                <div class="toy__settings__amount__block">
+                    <label for="5"><input type="radio" id="5">0-5</label>
+                    <label for="20"><input type="radio" id="20">5-20</label>
+                    <label for="50"><input type="radio" id="50">20-50</label>
+                </div>
+            </li>
+            <li class="toy__settings__apply">
+                <input type="submit" class="black_button" id="apply"><label for="apply"></label>
+            </li>
+        </ul>
+    </section>
+    <section class="toy__catalog">
+        <ul class="toy__catalog__list">
+            <li class="toy__catalog__item">
+                <img src="img/toy_catalog/image.png" class="toy__catalog__img" alt="">
+                <h4 class="toy__catalog__description">SHARKY BEAN BAG CHAIR COVER</h4>
+                <span class="toy__catalog__price">$60.00 USD</span>
+            </li>
+            <li class="toy__catalog__item">
+                <img src="img/toy_catalog/image2.png" class="toy__catalog__img" alt="">
+                <h4 class="toy__catalog__description">BRASS DECO FRAMES</h4>
+                <span class="toy__catalog__price">$66.00 USD</span>
+            </li>
+            <li class="toy__catalog__item">
+                <img src="img/toy_catalog/image3.png" class="toy__catalog__img" alt="">
+                <h4 class="toy__catalog__description">CIBO FULL APRON</h4>
+                <span class="toy__catalog__price">$60.00 USD</span>
+            </li>
+            <li class="toy__catalog__item">
+                <img src="img/toy_catalog/image4.png" class="toy__catalog__img" alt="">
+                <h4 class="toy__catalog__description">GATCHA GATCHA GUMBALL MACHINE</h4>
+                <span class="toy__catalog__price">$56.00 USD</span>
+            </li>
+            <li class="toy__catalog__item">
+                <img src="img/toy_catalog/image5.png" class="toy__catalog__img" alt="">
+                <h4 class="toy__catalog__description">CHRISTMAS ADVENT SCENTED CANDLE</h4>
+                <span class="toy__catalog__price">$29.00 USD</span>
+            </li>
+            <li class="toy__catalog__item">
+                <img src="img/toy_catalog/image6.png" class="toy__catalog__img" alt="">
+                <h4 class="toy__catalog__description">TANGLE SPINNING TEA LIGHT</h4>
+                <span class="toy__catalog__price">$56.00 USD</span>
+            </li>
+        </ul>
+    </section>
+    <section class="paginator">
+        <a href="#" class="paginator__arrow left"></a>
+        <ul class="paginator__list">
+            <li class="paginator__item active"><a href="#">1</a></li>
+            <li class="paginator__item"><a href="#">2</a></li>
+            <li class="paginator__item"><a href="#">3</a></li>
+            <li class="paginator__item"><a href="#">4</a></li>
+        </ul>
+        <a href="#" class="paginator__arrow right"></a>
+    </section>
+</main>
+<footer class="footer">
+    <div class="footer__left-wrap">
+        <p class="footer__left-wrap__title">Navigation</p>
+        <ul class="footer__left-wrap__list">
+            <li class="footer__left-wrap__item"><a class="footer__left-wrap__link link" href="#">About Us</a></li>
+            <li class="footer__left-wrap__item"><a class="footer__left-wrap__link link" href="#">Blog</a></li>
+            <li class="footer__left-wrap__item"><a class="footer__left-wrap__link link" href="#">Design Services</a>
+            </li>
+            <li class="footer__left-wrap__item"><a class="footer__left-wrap__link link" href="#">Featured On</a></li>
+            <li class="footer__left-wrap__item"><a class="footer__left-wrap__link link" href="#">2018 Holiday
+                Catalog</a></li>
+            <li class="footer__left-wrap__item"><a class="footer__left-wrap__link link" href="#">Shop By Desingeer</a>
+            </li>
+        </ul>
+    </div>
+    <div class="footer__center-wrap">
+        <p class="footer__center-wrap__title">Customer information</p>
+        <ul class="footer__center-wrap__list">
+            <li class="footer__center-wrap__item"><a class="footer__center-wrap__link link" href="#">Contact Us</a></li>
+            <li class="footer__center-wrap__item"><a class="footer__center-wrap__link link" href="#">Sale Exclusions</a>
+            </li>
+            <li class="footer__center-wrap__item"><a class="footer__center-wrap__link link" href="#">Shipping &
+                Returns</a></li>
+            <li class="footer__center-wrap__item"><a class="footer__center-wrap__link link" href="#">Terms &
+                Conditions</a></li>
+            <li class="footer__center-wrap__item"><a class="footer__center-wrap__link link" href="#">Privacy Policy</a>
+            </li>
+            <li class="footer__center-wrap__item"><a class="footer__center-wrap__link link" href="#">Search</a></li>
+        </ul>
+    </div>
+    <div class="footer__right-wrap">
+        <p class="footer__right-wrap__title">Connect</p>
+        <ul class="footer__right-wrap__list">
+            <li class="footer__right-wrap__item input">
+                <input class="footer__right-wrap__input" type="text" value="Email">
+                <button class="footer__right-wrap__button black_button">join</button>
+            </li>
+            <li class="footer__right-wrap__item">
+                <a class="footer__right-wrap__link facebook" href="#"></a>
+                <a class="footer__right-wrap__link twitter" href="#"></a>
+                <a class="footer__right-wrap__link pinterest" href="#"></a>
+                <a class="footer__right-wrap__link instagram" href="#"></a>
+            </li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>

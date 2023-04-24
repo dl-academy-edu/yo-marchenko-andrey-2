@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.header .header__left-side {
+    display: flex;
+    flex-direction: row;
+}
+
+.header .header__left-side .header__menu {
+    display: flex;
+    flex-direction: row;
+    padding-inline-start: 60px;
+}
+
+.header .header__left-side .header__menu .header__menu__item {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    white-space: nowrap;
+    margin-right: 20px;
+}
+
+.header .header__rigth-side .header__contact {
+    display: flex;
+}
+
+.header .header__rigth-side .header__contact .header__contact__item {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 25px;
+}

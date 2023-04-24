@@ -1,0 +1,132 @@
+@import "../fonts/Montserrat/montserrat.css";
+
+.wrapper {
+    padding-top: 0;
+}
+
+.category {
+}
+
+.category .category__title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #1E0606;
+    margin-bottom: 15px;
+}
+
+.category__breadcrumbs {
+    display: flex;
+    margin: 0 0 50px 0;
+}
+
+.category__breadcrumbs__item {
+    font-family: 'Crimson Text';
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+    margin-right: 20px;
+}
+
+.category__breadcrumbs .active {
+    color: gray;
+}
+
+.category .category__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+
+.category .category__list .category__list__item {
+    position: relative;
+    padding: 150px;
+    margin-right: 20px;
+    margin-bottom: 23px;
+}
+
+.category .category__list .category__list__item:nth-child(6n+3) {
+    margin-right: 300px;
+}
+
+.category .category__list .category__list__item:nth-child(6n+4) {
+    margin-left: 200px;
+}
+
+.category .category__list .category__list__title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Montserrat, sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.category .category__list .category__list__img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.category .category__list .category__list__item:nth-child(1n) {
+    background-color: #DBE4DB;
+}
+
+.category .category__list .category__list__item:nth-child(2n) {
+    background-color: #EADDD3;
+}
+
+.category .category__list .category__list__item:nth-child(3n) {
+    background-color: #f8f2db;
+}
+
+.category .category__list .category__list__item:nth-child(4n) {
+    background-color: #d5d4e1;
+}
+
+.category .category__description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+
+.category .category__description .category__description__title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.category .category__description .category__description__description{
+    margin-bottom: 20px;
+}
+
+.category .category__description__description .category__description__item {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 20px;
+    width: 680px;
+}
